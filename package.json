@@ -1,0 +1,20 @@
+{
+  "name": "rtl_wrapper",
+  "version": "1.0.0",
+  "description": "A package for handling RTL styling",
+  "main": "src/RTLWrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadaman-rm/RTLWrapper.git"
+  },
+  "keywords": ["react", "rtl", "wrapper", "language"],
+  "author": "gadaman-rm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gadaman-rm/RTLWrapper/issues"
+  },
+  "homepage": "https://github.com/gadaman-rm/RTLWrapper#readme"
+}
