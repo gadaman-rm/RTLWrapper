@@ -2,9 +2,10 @@
   "name": "rtl_wrapper",
   "version": "1.0.0",
   "description": "A package for handling RTL styling",
-  "main": "src/RTLWrapper.js",
+  "main": "dist/RTLWrapper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/gadaman-rm/RTLWrapper/issues"
   },
-  "homepage": "https://github.com/gadaman-rm/RTLWrapper#readme"
+  "homepage": "https://github.com/gadaman-rm/RTLWrapper#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/plugin-syntax-jsx": "^7.22.5",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5"
+  }
 }
