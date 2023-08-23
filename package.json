@@ -1,6 +1,6 @@
 {
   "name": "rtl_wrapper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A package for handling RTL styling",
   "main": "dist/RTLWrapper.js",
   "scripts": {
